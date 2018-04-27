@@ -4,7 +4,7 @@ mainClassName = 'com.otakusenpai.plugineg.MainKt'
 
 dependencies {
     compile project(':api')
-    compile group: 'org.pf4j', name: 'pf4j', version: "${pf4jVersion}"
+    compile group: 'org.pf4j', name: 'pf4j', version: "2.2.0"
     compile group: 'org.slf4j', name: 'slf4j-simple', version: '1.7.25'
 }
 

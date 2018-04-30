@@ -4,7 +4,7 @@ import org.slf4j.LoggerFactory
 import org.pf4j.Extension
 import org.pf4j.Plugin
 import org.pf4j.PluginWrapper
-import com.otakusenpai.plugineg.PluginInterface
+import com.otakusenpai.plugineg.api.PluginInterface
 
 class KotlinPlugin(wrapper: PluginWrapper) : Plugin(wrapper) {
     private val logger = LoggerFactory.getLogger(KotlinPlugin::class.java)

@@ -1,10 +1,10 @@
 package com.otakusenpai.plugineg
 
-import org.pf4j.DefaultPluginManager
+import com.otakusenpai.plugineg.TestPluginManager
 
 fun main(args: Array<String>) {
-    val p: PluginManager = PluginMaanger()
-    p.loadPlugins
+    val p: TestPluginManager = TestPluginManager()
+    p.loadORUnloadPlugins(true)
     p.startOrStopPlugins(true)
     p.callPlugins()
 }

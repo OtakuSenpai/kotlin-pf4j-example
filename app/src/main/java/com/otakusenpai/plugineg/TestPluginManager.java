@@ -57,7 +57,7 @@ public class TestPluginManager {
             if(load == true)
                 pluginManager.loadPlugins();
             else
-                pluginManager.loadPlugins();
+                pluginManager.unloadPlugins();
         } catch(Exception e) {
             e.printStackTrace();
         }
